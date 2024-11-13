@@ -10,10 +10,6 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({
-  tile,
-  description,
-  src,
-  link,
   color,
   i,
   progress,
