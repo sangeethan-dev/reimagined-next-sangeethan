@@ -2,10 +2,6 @@ import React from "react";
 import { motion, MotionValue, useTransform } from "framer-motion";
 
 interface CardProps {
-  tile: string;
-  description: string;
-  src?: string;
-  link?: string;
   color?: string;
   i: number;
   progress: MotionValue<number>;

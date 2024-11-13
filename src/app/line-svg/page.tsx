@@ -10,7 +10,7 @@ export default function LineSvg() {
 
   useEffect(() => {
     setPath(progress);
-  }, []);
+  }, [progress]);
 
   const setPath = (progress: number) => {
     const { innerWidth } = window;
